@@ -1,11 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
+// i wanna inject the text good morning from my js into that div
+// traditional manner
+// document.getElementById("root").innerHTML = "Gm";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// i wanna inject the same thing from react
+import ReactDOM from "react-dom";
+import FirstComponent from "./FirstComponent";
+
+ReactDOM.render(<FirstComponent />, document.getElementById("root"));
