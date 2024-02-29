@@ -2,3 +2,24 @@ creating react app
 1. npx create-react-app my-app -> cd react32 -> npm start
 2. npm install create-react-app -> create-react-app my-app -> cd react32 -> npm start
 3. cdn links
+
+ep2
+
+json-> to exchange data between multiple systems we use json object(lightweight)
+-> Empty all the files before creating the project
+->gives error for index.html
+-> create html
+-> gives error for index.js
+-> create index.js
+
+// create "GM" from js and insert into html
+
+traditional js
+document.getElementById("id-name").innerHtml =  "GM"
+
+reactjs
+
+ReactDOM.render(What you want to render,Where you want to render);
+ReactDOM.render("GM",document.getElementById("id-name"));
+
+
