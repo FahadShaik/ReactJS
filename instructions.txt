@@ -26,5 +26,26 @@ episode 3
 component is a reusable ui code. Main objective of Componnet is to describe the UI, How to describe UI ?, To return the UI.
 
 Class based components
+Writing components in older way like to describe the UI
 
+-> 3 steps to create class based components.
+1. class ComponentName{}
+2. this class cannot have a return, so we need to have some special super power to use this , and this comes from react. 
+-> extend the class from our created class i.e React.Component class
 
+class ComponentName extends React.Component{
+
+// return the UI
+} 
+
+3. after the extending of parent class we need to render the Ui with the special method 
+
+class ComponentName extends React.Component{
+
+    // this is already the method we have in our React.Component. We are overriding the method
+    render(){
+
+    }
+}
+
+// Return the UI from the render method using the Message.jsx Component example
