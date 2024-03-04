@@ -22,4 +22,9 @@ reactjs
 ReactDOM.render(What you want to render,Where you want to render);
 ReactDOM.render("GM",document.getElementById("id-name"));
 
+episode 3
+component is a reusable ui code. Main objective of Componnet is to describe the UI, How to describe UI ?, To return the UI.
+
+Class based components
+
 

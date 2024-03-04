@@ -4,6 +4,7 @@
 
 // i wanna inject the same thing from react
 import ReactDOM from "react-dom";
-import FirstComponent from "./FirstComponent";
+// import FirstComponent from "./FirstComponent";
+import App from "./components/App";
 
-ReactDOM.render(<FirstComponent />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root")); // react 17
