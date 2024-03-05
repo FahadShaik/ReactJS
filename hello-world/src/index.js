@@ -6,5 +6,6 @@
 import ReactDOM from "react-dom";
 // import FirstComponent from "./FirstComponent";
 import App from "./components/App";
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 ReactDOM.render(<App />, document.getElementById("root")); // react 17
