@@ -49,3 +49,8 @@ class ComponentName extends React.Component{
 }
 
 // Return the UI from the render method using the Message.jsx Component example
+
+// In function based components we are passing arguments to a function is known as props.
+
+episode 4 
+class based components and props , function based components and props, Enabling bootstrap, 3 ways of enabling bootstrap 1. cdn 2. importing the css to app.js 3. importing css and using bootstrap styling from a seperate directory
