@@ -54,3 +54,5 @@ class ComponentName extends React.Component{
 
 episode 4 
 class based components and props , function based components and props, Enabling bootstrap, 3 ways of enabling bootstrap 1. cdn 2. importing the css to app.js 3. importing css and using bootstrap styling from a seperate directory
+
+how to call the variables inside the class based components is via this and no this keyword in function based components
