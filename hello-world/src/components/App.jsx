@@ -1,11 +1,11 @@
 import Header from "./Header";
-import UserClass from "./UserClass";
+import MessageClass from "./MessageClass";
 
 const App = () => {
   return (
     <div>
       <Header />
-      <UserClass />
+      <MessageClass />
     </div>
   );
 };
