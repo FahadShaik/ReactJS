@@ -1,11 +1,11 @@
 import Header from "./Header";
-import MessageClass from "./MessageClass";
+import ProductTableClass from "./ProductTableClass";
 
 const App = () => {
   return (
     <div>
       <Header />
-      <MessageClass />
+      <ProductTableClass />
     </div>
   );
 };
