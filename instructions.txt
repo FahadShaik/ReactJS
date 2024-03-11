@@ -53,6 +53,31 @@ class ComponentName extends React.Component{
 // In function based components we are passing arguments to a function is known as props.
 
 episode 4 
-class based components and props , function based components and props, Enabling bootstrap, 3 ways of enabling bootstrap 1. cdn 2. importing the css to app.js 3. importing css and using bootstrap styling from a seperate directory
+class based components and props , function based components and props, Enabling bootstrap, 3 ways of enabling bootstrap 1. cdn 2. importing the css to app.js 3. importing css and using bootstrap styling from a seperate directory, React Expression
 
 how to call the variables inside the class based components is via this and no this keyword in function based components
+
+episode 5 
+props: to maintain communication between the components we use props.
+To send data from one component to another component.
+WHat kind of data?
+variable as a property(str, num, bool, obj, arr, method()).
+
+How to print object in browser?
+JSON.stringify()
+how to verify given array is empty or not ?
+[].length
+how to verify given object is empty or not ?
+Object.keys(obj_name).length
+
+How to take props from a class to an function component and function to a class component 
+the props are immutable and only unidirectional i.e from parent to child
+
+episode 6
+State:
+What is state?
+point**
+to update properties in class based components the event handlers should be arrow functions
+
+state is a component data which is probably changing in future terms, and this data is going to be manipulated this is the reason this is called as state is a mutable data.
+
