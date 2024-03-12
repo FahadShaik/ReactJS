@@ -29,7 +29,6 @@ class ProductTableClass extends React.Component {
   };
 
   render() {
-    console.log(this.state.product);
     return (
       <>
         <h2>Product Details</h2>

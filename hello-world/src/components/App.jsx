@@ -1,11 +1,11 @@
 import Header from "./Header";
-import ProductTableClass from "./ProductTableClass";
+import MessageBinding from "./MessageBinding";
 
 const App = () => {
   return (
     <div>
       <Header />
-      <ProductTableClass />
+      <MessageBinding />
     </div>
   );
 };
