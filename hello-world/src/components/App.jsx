@@ -1,11 +1,11 @@
 import Header from "./Header";
-import MessageBinding from "./MessageBinding";
+import EmployeeListClass from "./ListRendering/EmployeeListClass";
 
 const App = () => {
   return (
     <div>
       <Header />
-      <MessageBinding />
+      <EmployeeListClass />
     </div>
   );
 };
