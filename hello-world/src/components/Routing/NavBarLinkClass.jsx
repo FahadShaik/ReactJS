@@ -29,6 +29,11 @@ const NavBarLinkClass = () => {
               Contact
             </Link>
           </li>
+          <li>
+            <Link to="/users" className="nav-link">
+              Users
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
