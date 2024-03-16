@@ -5,6 +5,7 @@ import About from "./Routing/navfiles/About";
 import Services from "./Routing/navfiles/Services";
 import Contact from "./Routing/navfiles/Contact";
 import UserLC from "./APICalls/UserLC";
+import EmpLC from "./APICalls/EmpLC";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/users" element={<UserLC />} />
+          <Route path="/employees" element={<EmpLC />} />
         </Routes>
       </Router>
     </div>

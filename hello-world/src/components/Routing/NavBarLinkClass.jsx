@@ -34,6 +34,12 @@ const NavBarLinkClass = () => {
               Users
             </Link>
           </li>
+
+          <li>
+            <Link to="/employees" className="nav-link">
+              Employees
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
