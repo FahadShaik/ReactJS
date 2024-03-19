@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import UserLC from "./APICalls/UserLC";
 import EmpLC from "./APICalls/EmpLC";
-import SimpleForm from "./FormHandling/SimpleForm";
 import BSForm from "./FormHandling/BSForm";
+import SimpleFormHooks from "./FormHandling/SimpleFormHooks";
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
           <Route path="/contact" element={<BSForm />} />
           <Route path="/users" element={<UserLC />} />
           <Route path="/employees" element={<EmpLC />} />
-          <Route path="/login" element={<SimpleForm />} />
+          <Route path="/login" element={<SimpleFormHooks />} />
         </Routes>
       </Router>
     </div>

@@ -15,6 +15,7 @@ class BSForm extends Component {
   };
 
   submitHandler = (event) => {
+    console.log(event);
     event.preventDefault();
     console.log(this.state);
   };
