@@ -1,11 +1,10 @@
 import NavBarLinkClass from "./Routing/NavBarLinkClass";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./Routing/navfiles/Home";
-import About from "./Routing/navfiles/About";
-import Services from "./Routing/navfiles/Services";
-import Contact from "./Routing/navfiles/Contact";
+
 import UserLC from "./APICalls/UserLC";
 import EmpLC from "./APICalls/EmpLC";
+import SimpleForm from "./FormHandling/SimpleForm";
+import BSForm from "./FormHandling/BSForm";
 
 const App = () => {
   return (
@@ -13,12 +12,10 @@ const App = () => {
       <Router>
         <NavBarLinkClass />
         <Routes>
-          <Route path="/index" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<BSForm />} />
           <Route path="/users" element={<UserLC />} />
           <Route path="/employees" element={<EmpLC />} />
+          <Route path="/login" element={<SimpleForm />} />
         </Routes>
       </Router>
     </div>
