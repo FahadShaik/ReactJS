@@ -1,19 +1,17 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ContactApp from "./components/ContactApp/ContactApp";
-import Home from "./components/Home";
+// import Message from "./Message/Message";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
+import PlusMinus from "./PlusMinus/PlusMinus";
 
 const App = () => {
   return (
     <div>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/contacts" element={<ContactApp />} />
-          <Route path="/home" element={<Home />} />
-        </Routes>
-      </Router>
+      <Provider store={store}>
+        <h2>App</h2>
+        {/* <Message /> */}
+        <PlusMinus />
+      </Provider>
     </div>
   );
 };
